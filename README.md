@@ -3,8 +3,7 @@
 ## Aula 31/07
 
 ## Princípios de projeto de código
-Código deve ser simples e fácil de manter. Evitar repetição e garantir que cada função tenha uma única responsabilidade (coesão). Manter baixo acoplamento entre módulos. Não criar funcionalidades desnecessárias. Aplicar princípios SOLID para melhor estrutura e legibilidade.
-
+Código deve ser simples e fácil de manter. Evitar repetição e garantir que cada função tenha uma única responsabilidade (coesão). Manter baixo acoplamento entre módulos. Não criar funcionalidades desnecessárias. 
 
 
 ## Padronização de código
