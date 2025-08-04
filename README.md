@@ -1,41 +1,21 @@
-# Design e Arquitetura de Software 1 - 2025/2 Turma B
 
-## Repositório dos alunos
-- [Repos](#)
-
-## Configuração do GIT
-```
-git config --global user.name "NOME DO USUARIO NO GITHUB"
-git config --global user.email "EMAIL DA CONTA DO GITHUB"
-```
-
-## Bibliografia
-
-[Livro Eng Soft Moderna - Cap 7](https://engsoftmoderna.info/cap7.html)
-[Fundamentos da Arquitetura de Software](https://integrada.minhabiblioteca.com.br/reader/books/9788550819754/epubcfi/6/2%5B%3Bvnd.vst.idref%3Dcover%5D!/4/2/2%4051:1)
-
-## Configuração ao ambiente
-
-- Instalação do Maven
-
-```bash
-sudo su
-apt-get update -y
-apt-get upgrade -y
-apt-get install maven -y
-exit
-```
-
-
-## Arquitetura de Código
-
-[5 Princípios de Projeto](https://engsoftmoderna.info/cap5.html)
 
 ## Aula 31/07
 
-- Princípios de projeto de código
-- Padronização de código
-- Ocultamento de Informação
+## Princípios de projeto de código
+Código deve ser simples e fácil de manter. Evitar repetição e garantir que cada função tenha uma única responsabilidade (coesão). Manter baixo acoplamento entre módulos. Não criar funcionalidades desnecessárias. Aplicar princípios SOLID para melhor estrutura e legibilidade.
+
+
+
+## Padronização de código
+Padronizar o estilo e o formato do código facilita sua leitura e manutenção. É importante usar nomes consistentes para variáveis, funções e classes, além de manter uma indentação e espaçamento uniformes. Comentários claros e objetivos também fazem parte da padronização. Ferramentas como linters e formatadores ajudam a aplicar essas regras automaticamente. Seguir as convenções da linguagem ou do projeto melhora a colaboração entre equipes e reduz a chance de erros.
+  
+
+
+## Ocultamento de Informação
+Ocultamento de informação consiste em esconder os detalhes internos de um módulo ou classe, expondo apenas o necessário. Isso reduz o acoplamento, facilita a manutenção e protege os dados contra acesso indevido. É fundamental para criar sistemas modulares e seguros.
+
+  
 
 ## Aula 04/08
 
