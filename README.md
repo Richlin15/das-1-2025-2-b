@@ -18,9 +18,24 @@ Ocultamento de informação consiste em esconder os detalhes internos de um mód
 
 ## Aula 04/08
 
-- Coesão
-- Acoplamento
-- SOLID
+## Coesão
+Atributo/Caracteristica que buscamos no nosso sistema, toda classe deve implementar uma única funcionalidade ou serviço.
+
+Vantagens da Coesão:
+- Facilita a implementação de uma classe, bem como o seu entendimento e manutenção.
+- Facilita a alocação de um único responsavel por manter uma classe.
+- Facilita o reúso e teste de uma classe. 
+
+## Acoplamento
+
+Acoplamento é a força da conexão entre duas classes. Apesar de parecer simples, o conceito possui algumas nuances, as quais derivam da existência de dois tipos de acoplamento entre classes: acoplamento aceitável e acoplamento ruim.
+ 
+As recomendações sobre acoplamento e coesão são reunidas em uma única recomendação:
+"Maximize a coesão das classes e minimize o acoplamento entre elas."
+
+
+
+## SOLID
 
 
 
