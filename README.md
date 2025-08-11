@@ -37,5 +37,37 @@ As recomendações sobre acoplamento e coesão são reunidas em uma única recom
 
 ## SOLID
 
+  ## Princípio da Responsabilidade Única: 
+  
+  Uma classe deve ter uma única responsabilidade, ela deve ter um único motivo para mudar, com o obejtivo de manter a coesão do código, separando responsabilidades distintas em diferentes classes.
 
+  ## Princípio da Segragação de Interfaces: 
+  
+  Elas devem ser específicas para o cliente onde nenhuma classe deve ser forçada a depender de métodos que não utiliza, para aumentar a coesão das interfaces e evitar dependências desnecessárias.
+
+  ## Princípio de inversão de Dependencias: 
+  
+  Esse princípio recomenda que uma classe cliente, deve estabelecer dependências prioritariamente com abstrações e não com implementações concretas.
+  A ideia é então trocar ou inverter as dependências: em vez de depender de classes concretas, clientes devem depender de interfaces.Portanto, um nome mais intuitivo para o princípio seria Prefira Interfeces a Classes.
+
+  ## Prefira Composição a Herança
+
+ 
+
+
+
+ ## Princípio de Demeter 
+
+- Tambem chamada de Princípio do Menor Conhecimento defende que a implementação de um método deve invocar apenas os seguintes outros métodos:
+  - de sua própria classe (caso 1)
+  - de objetos passados como parâmetros (caso 2)
+  - de objetos criados pelo próprio método (caso 3)
+  - de atributos da classe do método (caso 4)
+
+  ## Princípio Aberto/Fechado
+
+  - uma classe deve estar fechada para modificações e aberta para extensões.
+ 
+
+  
 
