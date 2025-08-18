@@ -52,8 +52,7 @@ As recomendações sobre acoplamento e coesão são reunidas em uma única recom
 
   ## Prefira Composição a Herança
 
- 
-
+ Prefira composição em vez de herança para reutilizar código, pois composição cria menos acoplamento e é mais flexível. Herança expõe detalhes internos, dificultando manutenção, enquanto composição permite trocar partes do objeto facilmente. Use herança só quando houver uma verdadeira relação de "é-um".
 
 
  ## Princípio de Demeter 
@@ -66,8 +65,16 @@ As recomendações sobre acoplamento e coesão são reunidas em uma única recom
 
   ## Princípio Aberto/Fechado
 
-  - uma classe deve estar fechada para modificações e aberta para extensões.
- 
+  - Uma classe deve estar fechada para modificações e aberta para extensões,ou seja deve ser possível adicionar novos comportamentos sem alterar o código existente, usando herança, interfaces ou padrões de projeto. 
+Isso torna o sistema mais flexível e fácil de manter.
+
+
+ ## Princípio de Substituição de Liskov
+
+O Princípio de Substituição de Liskov (LSP) diz que uma subclasse deve poder substituir sua superclasse sem alterar o comportamento esperado do programa. 
+ - Isso significa que os métodos da subclasse devem manter o mesmo contrato da superclasse.
+ - Se isso não for respeitado, o uso da herança pode causar erros e comportamentos inesperados.
+
 
   
 
