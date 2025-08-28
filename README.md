@@ -76,5 +76,34 @@ O Princípio de Substituição de Liskov (LSP) diz que uma subclasse deve poder 
  - Se isso não for respeitado, o uso da herança pode causar erros e comportamentos inesperados.
 
 
+  ## Aula Dia 28/08
+
+  ## Características da arquitetura
+  
+  Características da Arquitetura = Requisitos Não Funcionais
+  Nos dias de hoje o principal foco é na segurança do site, pois se a segurança não for boa compromete não so o site como informações de clientes. 
+  
+ - Disponibilidade    - Confiabilidade    - Testabilidade    - Escalabilidade
+ - Segurança    - Agilidade    - Tolêrancia a falhas    - Elasticidade
+ - Recuperabilidade    - Desempenho    - Implementabilidade    - Capacidade de aprendizagem
+    
+  ## Princípios do design
+
+  Sempre que possível, utilize a mensageria assíncrona entre os serviços para aumentar o desempenho. 
+
+  Um princípio é o da comunicação. 
+
+  ## Estrutura
+
+
+  ## Decisões de arquitetura
+
+  As decisões de arquitetura são quando você define como será sua arquitetura, qual modelo que será usado (python, java, etc..).
+
+ Microseviço - busca reduzir o acoplamento 
+  
+
+  
+
   
 
