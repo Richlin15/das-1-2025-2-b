@@ -101,8 +101,45 @@ O Princípio de Substituição de Liskov (LSP) diz que uma subclasse deve poder 
   As decisões de arquitetura são quando você define como será sua arquitetura, qual modelo que será usado (python, java, etc..).
 
  Microseviço - busca reduzir o acoplamento 
-  
 
+
+## Aula 01/09
+
+
+## Expectativas de um Arquiteto
+
+- Tomar decisões de arquitetura 
+- Analisar continuamente a arquitetura
+- Manter-se atualizado com as últimas tendências
+-  Assegurar a conformidade com as decisões
+-  Ter conhecimento sobre domínio do negócio
+-  Ter habilidades interpessoais
+-  Entender e lidar bem com questões políticas
+
+## Tomar decisões de arquiteto
+
+Orientação é a palavra de ordem nessa primeira expectativa , framework reativo para o desenvolvimento web front-end 
+Ele deve ser o guia da equipe, o cara mais experiente que já passou por tudo dentro de empresa. 
+
+Ele deve analisar continuamente a arquitetura e o ambiente de tecnologia atual.
+
+## Manter-se Atualizado com as Últimas Tendências 
+
+Um arquiteto deve ficar atualizado com as últimas tendências da tecnologia e do setor. 
+
+Ele não precisa dominar tudo, porem deve estar por dentro de todas as mudanças nas tecnologias mundiais. 
+
+## Assegurar a Conformidade com as Decisões 
+
+Um arquiteto deve assegurar a conformidade com as decisões de arquitetura e os princípios de design.
+
+## Ter Habilidades Interpessoais 
+
+Um arquiteto deve ter habilidade interpessoais excepcionais, inclusive trabalho em equipe, facilitação e liderança.
+
+## Operações/DevOps
+
+Ele não resolve todos os problemas na primeira semana, ele leva tempo porem ele vai melhorando cada vez mais. 
   
 
   
