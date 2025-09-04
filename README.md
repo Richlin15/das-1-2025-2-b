@@ -144,13 +144,14 @@ Ele não resolve todos os problemas na primeira semana, ele leva tempo porem ele
 
 ## Aula 04/09
 
-Arquitetura de software define a estrutura geral do sistema e trata de decisões de alto nível, como a organização dos componentes e as tecnologias usadas.
+- Arquitetura de software define a estrutura geral do sistema e trata de decisões de alto nível, como a organização dos componentes e as tecnologias usadas.
 
-Design de software foca nos detalhes de implementação dentro desses componentes, como algoritmos, classes e métodos.
+- Design de software foca nos detalhes de implementação dentro desses componentes, como algoritmos, classes e métodos.
 
-A Arquitetura é o formato geral do sistema e o design é o detalhamento interno.
+- A Arquitetura é o formato geral do sistema e o design é o detalhamento interno.
 
+------------------------------------------------------------------------------------------------------------
 
-O arquiteto modelo T tem uma visão generalista e tambem possui uma capacidade técnica em certas áreas, permitindo-o atuar em diferentes times e ainda tenha autoridade técnica em assuntos críticos.  
+ O arquiteto modelo T tem uma visão generalista e tambem possui uma capacidade técnica em certas áreas, permitindo-o atuar em diferentes times e ainda tem autoridade técnica em assuntos críticos.  
   
 
