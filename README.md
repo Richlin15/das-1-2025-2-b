@@ -153,5 +153,43 @@ Ele não resolve todos os problemas na primeira semana, ele leva tempo porem ele
 ------------------------------------------------------------------------------------------------------------
 
  O arquiteto modelo T tem uma visão generalista e tambem possui uma capacidade técnica em certas áreas, permitindo-o atuar em diferentes times e ainda tem autoridade técnica em assuntos críticos.  
-  
 
+
+ ## Aula 08/09 
+
+ ## Trade OFF
+ 
+ Refere-se a necessidade de equilibrar decisões.
+ 
+ Trade-off é igual o sistema de um leilão.
+ 
+ Da pra fazer um leilão com um banco de dados, porém se o leilão estiver acontecendo em apenas um lugar e não em varios ao mesmo tempo. 
+
+
+Brokers:
+- apache kafka
+- rabbitmq
+- AWS SNS
+- Azure ServiceBus
+
+  Protocolo de Rede:
+  - AMQP
+  - Web socket
+  - MQTT
+
+## Topico
+Alguem publica e todos recebem a mensagem, como um alerta de promoção em um aplicativo que você liberou seus dados ou uma mensagem de whatsapp.
+Porém se por algum acaso o Rastrear Lance perder a conexão pois a bateria do celular acabou ou algo do tipo,ele não recebe mais aquela mensagem. 
+Publisher - Publica 
+Senders - Envia 
+Receiver - Recebe
+
+## Fila:
+Pooling é você pedir para receber a mensagem. 
+A mensagem é um para um, diferentemente do outro topico que a mensagem era 1 para n (igual em um grupo de familia).
+Senders e Receiver
+
+A diferença do Fila pro Tópico seria que na fila tem um maior acoplamento.
+Se você tiver a necessidade de mensagens mais diretas o fila é o mais recomendado. 
+
+Buffer - as mensagens ficam armazenadas na fila, para caso de problema na conexão de alguns dos consumidores eles consigam resgata-las.
