@@ -193,3 +193,10 @@ A diferença do Fila pro Tópico seria que na fila tem um maior acoplamento.
 Se você tiver a necessidade de mensagens mais diretas o fila é o mais recomendado. 
 
 Buffer - as mensagens ficam armazenadas na fila, para caso de problema na conexão de alguns dos consumidores eles consigam resgata-las.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+## Aula 11/09
+
+
+
