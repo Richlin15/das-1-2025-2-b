@@ -10,5 +10,7 @@ public class Publisher {
     
         DefaultAzureCredential credential = 
             new DefaultAzureCredentialBuilder().build();
+
+            
     }
 }
