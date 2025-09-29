@@ -95,6 +95,8 @@ O Princípio de Substituição de Liskov (LSP) diz que uma subclasse deve poder 
 
   ## Estrutura
 
+  
+
 
   ## Decisões de arquitetura
 
@@ -138,6 +140,8 @@ Um arquiteto deve assegurar a conformidade com as decisões de arquitetura e os 
 Um arquiteto deve ter habilidade interpessoais excepcionais, inclusive trabalho em equipe, facilitação e liderança.
 
 ## Operações/DevOps
+
+DevOps é a prática que integra desenvolvimento e operações para entregar software mais rápido, com qualidade e adaptável às mudanças. 
 
 Ele não resolve todos os problemas na primeira semana, ele leva tempo porem ele vai melhorando cada vez mais. 
 
