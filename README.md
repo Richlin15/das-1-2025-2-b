@@ -200,7 +200,28 @@ Buffer - as mensagens ficam armazenadas na fila, para caso de problema na conex�
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
-## Aula 11/09
+  ## Aula 06/10
+
+Características da Arquitetura: São requisitos não relacionados diretamente à funcionalidade, mas essenciais para o sucesso do sistema. 
+Como o Desepenho, segurança, escalabilidade, manutenibilidade.
+
+## Classificação das Características da Arquitetura
+
+As características são organizadas em três grandes categorias:
+
+ - Operacionais: Essas características estão diretamente ligadas a práticas de DevOps e infraestrutura.
+ - Estruturais: São cruciais para escalabilidade técnica, qualidade e ciclo de vida do sistema e Relacionam-se à qualidade do código, modularidade e manutenção.
+ - Transversais: Essas características são frequentemente críticas em setores regulados, como financeiro, saúde, governo, etc. São restrições ou requisitos amplos, que não se encaixam nas outras categorias.
+
+
+
+## Trade-offs e Compensações
+
+Características da arquitetura conflitam entre si exemplo: segurança x desempenho
+
+O arquiteto deve equilibrar as escolhas buscando a arquitetura mais adequada ao contexto.
+
+
 
 
 
