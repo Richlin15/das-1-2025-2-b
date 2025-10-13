@@ -221,7 +221,46 @@ Características da arquitetura conflitam entre si exemplo: segurança x desempe
 
 O arquiteto deve equilibrar as escolhas buscando a arquitetura mais adequada ao contexto.
 
+---------------------------------------------------------------------------------------------------------------------------------------------------
 
+## Aula 09/10
+
+  ## Circuit Breaker
+ 
+Circuit Breaker é um padrão usado para evitar falhas em aplicações distribuídas. Ele bloqueia temporariamente chamadas a serviços que estão falhando, para permitir que o sistema se recupere.
+
+Funciona como uma máquina de estados: 
+- Fechado: Tudo funciona normalmente. Se houver muitas falhas, vai para o estado Aberto.
+- Aberto: Bloqueia chamadas imediatamente por um tempo.
+- Meio-Aberto: Permite algumas chamadas de teste. Se der certo, volta ao estado Fechado; se falhar, volta ao Aberto.
+
+  Usado para proteger aplicações de serviços instáveis.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Aula 13/10
+
+  ## CQRS
+
+  É um padrão que separa as operações de leitura e escrita em modelos diferentes para melhorar desempenho, escalabilidade e segurança.
+  
+  Na arquitetura CRUD usam o mesmo modelo, o que pode causar problemas de performance, concorrência e complexidade.
+
+  O CQRS tem uma melhor escalabilidade, segurança, clareza e desempenho. Porém, CQRS aumenta a complexidade e pode gerar dados desatualizados.
+
+  É indicado para sistemas complexos, com muitos usuários simultâneos.
+
+
+  ## Estilos de Arquitetura de Software
+  
+  São nomes que descrevem a estrutura e as características de um sistema.
+
+  - Grande Bola de Lama: Antipadrão; código sem estrutura, difícil de alterar.
+  - Unitária: Roda em um único sistema.
+  - Cliente/Servidor: Separa front-end e back-end.
+  - Três Camadas: Adiciona uma camada de aplicação/negócios (Banco de Dados > Aplicação > Apresentação).
+
+  
 
 
 
