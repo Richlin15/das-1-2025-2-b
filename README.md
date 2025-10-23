@@ -260,6 +260,16 @@ Funciona como uma máquina de estados:
   - Cliente/Servidor: Separa front-end e back-end.
   - Três Camadas: Adiciona uma camada de aplicação/negócios (Banco de Dados > Aplicação > Apresentação).
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+  ## Aula 20/10 e 23/10
+
+  O estilo de arquitetura em camadas é um modelo de organização de software em que o sistema é dividido em camadas horizontais, e cada uma tem uma função específica, como interface, regras e  acesso a dados.
+
+  Essas camadas se comunicam de forma hierárquica, cada uma só interage com a camada imediatamente abaixo, o que facilita a separação de responsabilidades, a organização do código e a manutenção.
+
+  É um estilo comum de baixo custo, ideal para aplicações pequenas, mas que pode ter problemas de desempenho e escalabilidade em sistemas grandes.
   
 
 
