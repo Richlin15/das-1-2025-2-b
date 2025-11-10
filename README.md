@@ -272,5 +272,28 @@ Funciona como uma máquina de estados:
   É um estilo comum de baixo custo, ideal para aplicações pequenas, mas que pode ter problemas de desempenho e escalabilidade em sistemas grandes.
   
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+## Aula 03/11 e 06/11
+
+## Arquitetura Microkernel
+
+A arquitetura microkernel divide o sistema em um núcleo central mínimo e plug-ins independentes que adicionam ou estendem funcionalidades. O sistema central executa apenas o essencial, enquanto os plug-ins trazem regras, recursos e personalizações.
+
+É usada em softwares como Eclipse, Jira, Jenkins, Chrome e Firefox, e também em sistemas corporativos que exigem customização por cliente ou região.
+
+Vantagens: fácil de estender, manter e testar, pois cada plug-in é isolado.
+Desvantagens: baixa escalabilidade e tolerância a falhas.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Aula 10/11 e 13/11 
+
+## Arquitetura de Microserviços 
+
+A arquitetura de microserviços divide um sistema em serviços independentes, cada um com uma função específica e seu próprio banco de dados, garantindo autonomia e isolamento. A comunicação ocorre por API.
+
+Os microserviços permitem reutilização, escalabilidade independente e desenvolvimento paralelo. Para manter a consistência dos dados, utiliza-se o padrão Saga, que coordena transações distribuídas.
+
+Principais características: escalabilidade, resiliência, flexibilidade e complexidade distribuída, exigindo boas práticas de monitoramento e orquestração.
 
