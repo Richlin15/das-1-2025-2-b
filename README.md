@@ -274,6 +274,16 @@ Funciona como uma máquina de estados:
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+## Aula 27/10 e 30/10
+
+## Pipeline
+
+A arquitetura pipeline organiza o processamento em uma sequência de filtros independentes conectados por canais unidirecionais. Cada filtro faz apenas uma tarefa. Isso traz simplicidade, baixo custo e boa modularidade, pois filtros podem ser trocados sem afetar os demais.
+
+Por ser normalmente monolítica, apresenta limitações importantes: baixa escalabilidade, pouca tolerância a falhas e disponibilidade reduzida. Apesar disso, é muito útil em fluxos lineares de processamento como ETL, EDI, pipelines de telemetria e scripts de shell.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Aula 03/11 e 06/11
 
 ## Arquitetura Microkernel
